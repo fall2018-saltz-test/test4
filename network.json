@@ -78,10 +78,15 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "yatish2",
             "desc": "",
-            "name": "MaxMurder.R"
+            "name": "MaxMurder.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "barNumMurder1.png"
         }
     ],
-    "updated_at": "2018-10-10 14:39:57",
+    "updated_at": "2018-10-10 14:46:49",
     "url": "https://github.com/fall2018-saltz-test/test4"
 }

@@ -54,6 +54,16 @@
             ],
             "source": "final_data.csv",
             "target": "MaxMurder.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barNumMurder1",
+                    "type": "png"
+                }
+            ],
+            "source": "MaxMurder.R",
+            "target": "barNumMurder1.png"
         }
     ],
     "nodes": [
@@ -87,6 +97,6 @@
             "name": "barNumMurder1.png"
         }
     ],
-    "updated_at": "2018-10-10 14:46:49",
+    "updated_at": "2018-10-10 14:47:09",
     "url": "https://github.com/fall2018-saltz-test/test4"
 }

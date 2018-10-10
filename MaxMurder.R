@@ -11,3 +11,4 @@ df$NumMurder <- as.integer(df$Murder*df$population/100000)
 #str(df1)
 #barchart 
 barNumMurder1 <- ggplot(df,aes(x=stateName,y=NumMurder))
+barNumMurder1 <- barNumMurder1 + geom_col()

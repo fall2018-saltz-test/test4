@@ -1,0 +1,42 @@
+{
+    "collaborators": [
+        "yatish2",
+        "yatish"
+    ],
+    "created_at": "2018-09-24 16:17:19",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "data.csv"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "name": "clean.R"
+        },
+        {
+            "name": "data.csv"
+        }
+    ],
+    "updated_at": "2018-10-10 13:59:46",
+    "url": "https://github.com/fall2018-saltz-test/test4"
+}

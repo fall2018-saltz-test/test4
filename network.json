@@ -31,12 +31,17 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "name": "clean.R"
+            "assigned_to": "yatish2",
+            "name": "clean.R",
+            "task_status": "in progress"
         },
         {
             "name": "data.csv"
+        },
+        {
+            "name": "final_data.csv"
         }
     ],
-    "updated_at": "2018-10-10 13:59:46",
+    "updated_at": "2018-10-10 14:00:45",
     "url": "https://github.com/fall2018-saltz-test/test4"
 }

@@ -44,6 +44,16 @@
             ],
             "source": "mergeUSArrestsCensus.R",
             "target": "final_data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "final_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "final_data.csv",
+            "target": "MaxMurder.R"
         }
     ],
     "nodes": [
@@ -72,6 +82,6 @@
             "name": "MaxMurder.R"
         }
     ],
-    "updated_at": "2018-10-10 14:39:47",
+    "updated_at": "2018-10-10 14:39:57",
     "url": "https://github.com/fall2018-saltz-test/test4"
 }

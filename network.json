@@ -24,6 +24,16 @@
             ],
             "source": "clean.R",
             "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "mergeUSArrestsCensus.R"
         }
     ],
     "nodes": [
@@ -46,6 +56,6 @@
             "name": "mergeUSArrestsCensus.R"
         }
     ],
-    "updated_at": "2018-10-10 14:01:07",
+    "updated_at": "2018-10-10 14:01:36",
     "url": "https://github.com/fall2018-saltz-test/test4"
 }

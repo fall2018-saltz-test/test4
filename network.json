@@ -62,10 +62,16 @@
             "name": "final_data.csv"
         },
         {
+            "assigned_to": "yatish2",
             "desc": "",
-            "name": "mergeUSArrestsCensus.R"
+            "name": "mergeUSArrestsCensus.R",
+            "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "MaxMurder.R"
         }
     ],
-    "updated_at": "2018-10-10 14:01:45",
+    "updated_at": "2018-10-10 14:03:55",
     "url": "https://github.com/fall2018-saltz-test/test4"
 }

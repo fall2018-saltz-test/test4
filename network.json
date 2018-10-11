@@ -64,6 +64,16 @@
             ],
             "source": "MaxMurder.R",
             "target": "barNumMurder1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "txt",
+                    "type": "txt"
+                }
+            ],
+            "source": "clean.R",
+            "target": "text4156.txt"
         }
     ],
     "nodes": [
@@ -100,6 +110,6 @@
             "name": "text4156.txt"
         }
     ],
-    "updated_at": "2018-10-11 14:27:50",
+    "updated_at": "2018-10-11 14:27:59",
     "url": "https://github.com/fall2018-saltz-test/test4"
 }

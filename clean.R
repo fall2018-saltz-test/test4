@@ -19,4 +19,4 @@ cleanCensus <- readStates(raw_data)
 str(cleanCensus)
 clean_data <- cleanCensus
 
-txt <- lm(DIVISION, data = raw_data)
+txt <- lm(raw_data$DIVISION, data = raw_data)

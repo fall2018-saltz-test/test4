@@ -1,0 +1,115 @@
+{
+    "collaborators": [
+        "yatish2",
+        "test"
+    ],
+    "created_at": "2018-09-24 16:17:19",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "mergeUSArrestsCensus.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "final_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "mergeUSArrestsCensus.R",
+            "target": "final_data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "final_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "final_data.csv",
+            "target": "MaxMurder.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barNumMurder1",
+                    "type": "png"
+                }
+            ],
+            "source": "MaxMurder.R",
+            "target": "barNumMurder1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "txt",
+                    "type": "txt"
+                }
+            ],
+            "source": "clean.R",
+            "target": "text4156.txt"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "assigned_to": "yatish2",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "data.csv"
+        },
+        {
+            "name": "final_data.csv"
+        },
+        {
+            "assigned_to": "yatish2",
+            "desc": "",
+            "name": "mergeUSArrestsCensus.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "yatish2",
+            "desc": "",
+            "name": "MaxMurder.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "barNumMurder1.png"
+        },
+        {
+            "name": "text4156.txt"
+        }
+    ],
+    "updated_at": "2018-10-17 17:36:53",
+    "url": "https://github.com/fall2018-saltz-test/test4"
+}
